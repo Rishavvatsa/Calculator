@@ -161,11 +161,6 @@ button#equal {
     background-color: #050004;
     color: #ffffff;
   }
-  @media (max-width:450px){
+  
 
-    html{
-        font-size: 50%;
-    }
-
-}
   
