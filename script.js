@@ -13,11 +13,24 @@ buttons.forEach((item) => {
     } else if (display.innerText == "" && item.id == "equal") {
       display.innerText = "Empty!";
       setTimeout(() => (display.innerText = ""), 2000);
-    } else {
+    } else if(item.id=="e")
+  {
+    display.innerText="2.718281828459";
+  }
+    else {
       display.innerText += item.id;
     }
   };
 });
+function sin()
+{
+  display.innerText=Math.sin( display.innerText);
+}
+function pi()
+{
+  if(item.id=="pi()")
+  display.item=3.1414;
+}
 
 const themeToggleBtn = document.querySelector(".theme-toggler");
 const calculator = document.querySelector(".calculator");
